@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+  }
+body{
+    background-color: #FFFFF0;
+}
+
+header{
+    position: absolute;
+    background-color: #EECFA1;
+    height: 20px;
+    width: 100%;
+  }
+.vicent-cabecalho{
+    position: absolute;
+    top: 130%;
+    right:40%;
+}
+.separacao{
+    position: absolute;
+    top:245px;
+    background-color:#EECFA1;
+    height: 20px;
+    width: 100%;
+}
+h1{
+    position: absolute;
+    font-size: 110px;
+    font-family: Oswald;
+    color: #CDB38B;
+    top: 45px;
+    left: 200px;
+}
+h2{
+    position: absolute;
+    font-size:110px;
+    font-family: Oswald;
+    color:#CDB38B;
+    top: 45px;
+    left: 890px;
+}
+.box{
+    width: 70%;
+}
+h3{
+    text-align: start;
+    font-family: titillium web;
+    color: #D2691E;
+}
+.column {
+    float: left;
+    width: 80%;
+    padding: 15px;
+}
+.vida{
+    position: absolute;
+    top: 41vh;
+    margin: 1.5%;
+    background-color: #FFF8DC;
+    border: 2px solid #EECFA1;
+}
+.sobre{
+    text-align: start;
+    font-size: 15px;
+    font-family: roboto;
+    letter-spacing: 1px;
+}
+.retrato{
+    position: absolute;
+    left: 85%;
+    top: 20%;
+}
+.arte{
+    position: absolute;
+    top:98vh;
+    margin: 1.5%;
+    background-color: #FFF8DC;
+    border: 2px solid #EECFA1;
+}
+.sua-arte{
+    width: 127%;
+    font-family: roboto;
+    letter-spacing:1px;
+}
+.morte{
+    position: absolute;
+    top: 182%;
+    margin: 1.5%;
+    background-color: #FFF8DC;
+    border: 2px solid #EECFA1;
+}
+.sua-morte{
+    width: 127%;
+    font-family: roboto;
+    letter-spacing:1px;
+}
+footer{
+    position: absolute;
+    top: 220%;
+    font-family: Oswald;
+    color: #D2691E;
+    background-color: #EECFA1;
+    height: 40px;
+    width: 100%;
+}
+.info{
+    margin: 10px;
+}
